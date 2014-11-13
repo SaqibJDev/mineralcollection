@@ -28,7 +28,7 @@ class Minerals extends CI_Controller {
 		try{
 			$crud = new grocery_CRUD();
 
-			$crud->set_theme('datatables');
+			//$crud->set_theme('datatables');
 			$crud->set_table('Sites');
 			$crud->set_subject('Site');
 			$crud->display_as('CommuneId','Commune');
